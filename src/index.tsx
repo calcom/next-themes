@@ -88,7 +88,7 @@ const Theme: React.FC<ThemeProviderProps> = ({
         // Unsupported
       }
     },
-    [forcedTheme]
+    [forcedTheme, storageKey]
   )
 
   const handleMediaQuery = useCallback(
